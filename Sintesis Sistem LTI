@@ -1,8 +1,6 @@
 clear all;
 close all;
 
-nama= 'your name'
-
 sistem2 = tf([], []);
 sistem4 = tf([], []);
 sistem5 = sistem2*sistem4;
