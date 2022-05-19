@@ -1,0 +1,17 @@
+clear all;
+close all;
+
+nama= 'your name'
+
+sistem1 = tf([], []);
+sistem2 = tf([], []);
+sistem3 = tf([], []);
+sistem4 = tf([], []);
+ 
+figure(1);
+bode(sistem1, sistem2, sistem3, sistem4);
+legend('sistem1', 'sistem2', 'sistem3', 'sistem4');
+figure(2);
+pzmap(sistem1, sistem2, sistem3, sistem4);
+legend('sistem1', 'sistem2', 'sistem3', 'sistem4');
+hold on;
